@@ -9,12 +9,19 @@ This project provisions a fully managed **Kubernetes (EKS)** cluster on **AWS** 
 
 terraform-eks/
 ├── main.tf # EKS cluster and Terraform provider configuration
+
 ├── variables.tf # AWS VPC and subnet variables
+
 ├── kubernetes.tf # Kubernetes namespace, deployment, and service
+
 ├── outputs.tf # Outputs for the EKS cluster
+
 ├── html/
+
 │ ├── index.html # Static HTML page
+
 │ └── Dockerfile # Dockerfile using Nginx
+
 ├── command.sh # Shell script to automate setup
 └── README.md # Project documentation
 
