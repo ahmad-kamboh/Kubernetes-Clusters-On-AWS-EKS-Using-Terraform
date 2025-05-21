@@ -25,3 +25,6 @@ echo -e "${GREEN}=== Step 5: Verifying Kubernetes Service ===${NC}"
 kubectl get svc -n html-app
 
 echo -e "${GREEN}=== Done! Access your HTML app using the EXTERNAL-IP above. ===${NC}"
+
+chmod +x command.sh  
+./command.sh
