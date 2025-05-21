@@ -3,6 +3,8 @@
 
 This project provisions a fully managed **Kubernetes (EKS)** cluster on **AWS** using **Terraform**, and deploys a simple **Dockerized HTML page** on it.
 
+![Image](https://github.com/user-attachments/assets/d790e674-929d-48b3-9f80-ebeea1923fb3)
+
 ---
 
 ## 📁 Project Structure
@@ -35,6 +37,7 @@ terraform-eks/
 - Docker installed and DockerHub account
 
 ---
+![Image](https://github.com/user-attachments/assets/a8e16c0e-6b76-449c-8099-696dd347b279)
 
 ## 🐳 Docker Build & Push
 
